@@ -60,7 +60,7 @@ a:hover{
 .btn-circle:hover{
     width:300px;
     transition: .4s ease;
-} transition: .4s ease;
+}
 .div_relative p{
     margin-left: 30px;
     margin-right: 30px;
