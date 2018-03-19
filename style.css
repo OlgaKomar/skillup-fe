@@ -396,3 +396,26 @@ a:hover{
 	border-radius: 5px;
 	box-shadow: 10px 9px 17px 0px #d9dbdd;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
+
+.gallery{
+	position: relative;
+	background-color: #f8f8fa;
+}
+
+.title{	
+	font-family: 'Londrina Solid', cursive;
+	font-size: 37px;
+	color: #f7682c;
+	text-align: center;
+}
+
+.ro{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+	padding: 12px;
+}
+
