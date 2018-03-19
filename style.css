@@ -1,3 +1,4 @@
+
 .div{
     margin: 0px;
     padding: 0px;
@@ -76,4 +77,36 @@ a:hover{
 .Price{
     color: darkorange;
     font-weight: bold;
+}
+.news {
+	width:100%;
+	padding: 50px 0;
+}
+.color{
+	color: #f26f29;
+}
+.iner{
+	padding-right: 375px;
+	padding-left: 375px;
+}
+.title-block-news{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 60px;	
+}
+.icon-title{
+
+	color:#6fb3cf;
+
+}
+.photo-decribe{
+	margin-top:15px;
+}
+.st{
+	padding-left: 5px;
+}
+.photo img{
+	border-radius: 5px;
+	box-shadow: 10px 9px 17px 0px #d9dbdd;
 }
