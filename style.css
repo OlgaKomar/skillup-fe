@@ -1,4 +1,32 @@
 
+.header-container ul{
+	list-style-type: none;
+}
+@media {.header-container a{
+	display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+	white-space: nowrap;
+	text-decoration: none;
+	background-color: transparent;
+	box-sizing: border-box;
+
+}
+}
+.dropdown-menu {
+	text-decoration: none;
+	float: right;
+	padding: 12px 16px;	
+}
+
+.classes_menu {
+	min-width: 600px;
+}
+
+
 .div{
     margin: 0px;
     padding: 0px;
@@ -78,6 +106,7 @@ a:hover{
     color: darkorange;
     font-weight: bold;
 }
+
 .news {
 	width:100%;
 	padding: 50px 0;
