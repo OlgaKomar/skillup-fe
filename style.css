@@ -5,9 +5,172 @@
   transition: all .5s;
 }
 
+.header-container ul{
+	list-style-type: none;
+}
+@media {.header-container a{
+	display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+	white-space: nowrap;
+	text-decoration: none;
+	background-color: transparent;
+	box-sizing: border-box;
+
+}
+}
+.dropdown-menu {
+	text-decoration: none;
+	float: right;
+	padding: 12px 16px;	
+}
+
+.classes_menu {
+	min-width: 600px;
+}
+
+
+.div{
+    margin: 0px;
+    padding: 0px;
+}
+.img{
+    width: 100%;
+}
+.radius10{
+    border-radius: 10px 10px 0px 0px;
+}
+.div_relative{
+    position: relative;
+}
+.div_absolute{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    margin: 0px;
+}
+.div_over_clas{
+    text-align: center;
+    color: white;
+    background: violet;
+    height: 250px;
+    padding-top: 50px;
+}
+.div_class{
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(206, 206, 206, 0.548);
+    text-align: center;
+    width: 370px;
+    margin: 15px;
+    padding: 0px;
+    display: inline-block;
+}
+a h3 {
+    color:  black;
+    font-weight: bold;
+    padding-top: 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+.btn-circle {
+    position: absolute;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.428571429;
+    border-radius: 30px;
+    color:white;
+    background-color: darkorange;
+    border: 0px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btn-circle:hover{
+    width:300px;
+    transition: .4s ease;
+}
+.div_relative p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+.div_ASP{
+    display: inline-block;
+    width: 100px;
+    height:50px;
+    margin: 8px;
+    text-align: center;
+}
+.Price{
+    color: darkorange;
+    font-weight: bold;
+}
+
+.news {
+	width:100%;
+	padding: 50px 0;
+}
+.color{
+	color: #f26f29;
+}
+.iner{
+	padding-right: 375px;
+	padding-left: 375px;
+}
+.title-block-news{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 60px;	
+}
+.icon-title{
+
+	color:#6fb3cf;
+
+}
+.photo-decribe{
+	margin-top:15px;
+}
+.st{
+	padding-left: 5px;
+}
+.photo img{
+	border-radius: 5px;
+	box-shadow: 10px 9px 17px 0px #d9dbdd;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
+
+.gallery{
+	position: relative;
+	background-color: #f8f8fa;
+}
+
+.title{	
+	font-family: 'Londrina Solid', cursive;
+	font-size: 37px;
+	color: #f7682c;
+	text-align: center;
+}
+
+.ro{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+	padding: 12px;
+}
+
 .baner {
   height: 706px;
-  background: url("Images/fon_classes.png") no-repeat center;
+  background: url("image/fon_classes.png") no-repeat center;
   position: absolute;
   left: 0;
   right: 0;
@@ -30,12 +193,12 @@
 }
 
 .wrapper h1:before {
-  content: url(Images/spiral.png);
+  content: url(image/spiral.png);
   padding-right: 15px;
 }
 
 .wrapper h1:after {
-  content: url(Images/spiral.png);
+  content: url(image/spiral.png);
   padding-left: 13px;
 }
 
@@ -279,190 +442,5 @@
   font-size: 18px;
   font-weight: 600;
   color: #f26f29;
-}
-
-.header-container ul {
-	list-style-type: none;
-}
-
-@media {.header-container a{
-	display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #333;
-	white-space: nowrap;
-	text-decoration: none;
-	background-color: transparent;
-	box-sizing: border-box;
-
-}
-}
-.dropdown-menu {
-	text-decoration: none;
-	float: right;
-	padding: 12px 16px;	
-}
-
-.classes_menu {
-	min-width: 600px;
-}
-
-
-.div{
-    margin: 0px;
-    padding: 0px;
->>>>>>> master
-}
-
-.div {
-  margin: 0px;
-  padding: 0px;
-}
-
-.img {
-  width: 100%;
-}
-
-.radius10 {
-    border-radius: 10px 10px 0px 0px;
-}
-
-.div_relative {
-  position: relative;
-}
-
-.div_absolute {
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 150px;
-  margin: 0px;
-}
-
-.div_over_clas{
-  text-align: center;
-  color: white;
-  background: violet;
-  height: 250px;
-  padding-top: 50px;
-}
-
-.div_class {
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px rgba(206, 206, 206, 0.548);
-    text-align: center;
-    width: 370px;
-    margin: 15px;
-    padding: 0px;
-    display: inline-block;
-}
-
-a h3 {
-    color:  black;
-    font-weight: bold;
-    padding-top: 30px;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.btn-circle {
-    position: absolute;
-    bottom: -50px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    line-height: 1.428571429;
-    border-radius: 30px;
-    color:white;
-    background-color: darkorange;
-    border: 0px;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-.btn-circle:hover {
-    width:300px;
-    transition: .4s ease;
-}
-
-.div_relative p {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 15px;
-}
-
-.div_ASP {
-    display: inline-block;
-    width: 100px;
-    height:50px;
-    margin: 8px;
-    text-align: center;
-}
-
-.Price {
-  color: darkorange;
-  font-weight: bold;
-}
-
-.news {
-	width:100%;
-	padding: 50px 0;
-}
-
-.color {
-	color: #f26f29;
-}
-
-.iner {
-	padding-right: 375px;
-	padding-left: 375px;
-}
-
-.title-block-news {
-	text-align: center;
-	margin-bottom: 40px;
-	font-weight: bold;
-	font-size: 60px;	
-}
-.icon-title {
-	color:#6fb3cf;
-
-}
-.photo-decribe {
-	margin-top:15px;
-}
-.st {
-	padding-left: 5px;
-}
-.photo img {
-	border-radius: 5px;
-	box-shadow: 10px 9px 17px 0px #d9dbdd;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
-
-.gallery {
-	position: relative;
-	background-color: #f8f8fa;
-}
-
-.title {	
-	font-family: 'Londrina Solid', cursive;
-	font-size: 37px;
-	color: #f7682c;
-	text-align: center;
-}
-
-.ro {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	border-radius: 6px;
-	padding: 12px;
 }
 
