@@ -145,3 +145,24 @@ header {
 #mainNavbar {
   padding: 20px;
   text-transform: uppercase; }
+
+
+
+.testimonials-head {
+
+}
+
+
+.column {
+ 
+display: flex;
+
+}
+.thalaburda-box {
+  width: 25%;
+  margin: 20px ;
+}
+
+
+
+
