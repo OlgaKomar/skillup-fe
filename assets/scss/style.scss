@@ -39,12 +39,37 @@ header {
     padding: 0 10px;
   }
 
-  .bp-contact-info {
-    align-self: center;
-  }
-}
+ } 
 
 #mainNavbar {
   padding: 20px;
   text-transform: uppercase;
 }
+.wrapper {
+  background: black;
+}
+.conteiner{
+width: 1000px;
+  display: flex;
+  
+}
+.first-row {
+ 
+ flex-direction: column;
+ width: 50%;
+   
+   .tp-text-info{
+    font-size: 30px;
+    color: $white;
+   }
+    i p {
+    color: $white;
+   
+}
+}
+.second-row{
+
+
+}
+
+
