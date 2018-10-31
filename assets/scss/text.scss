@@ -1,0 +1,54 @@
+@import './colors.scss';
+
+h1, h2, h3, h4, h5, h6,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: .025em;
+  word-spacing: .1em;
+  color: $black;
+  text-align: center;
+}
+
+h1,
+.heading-1 {
+  font-size: 95px;
+}
+
+h2,
+.heading-2 {
+  font-size: 60px;
+}
+
+h3,
+.heading-3 {
+  font-size: 36px;
+}
+
+h4,
+.heading-4 {
+  font-size: 24px;
+}
+
+h5,
+.heading-5 {
+  font-size: 18px;
+}
+
+h6,
+.heading-6 {
+  font-size: 16px;
+}
+
+.text-white {
+  color: $white;
+}
+
+.bp-bold {
+  font-weight: 700;
+}

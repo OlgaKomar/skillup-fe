@@ -1,0 +1,147 @@
+/*$orange-primary: #1da650;*/
+/*$orange-primary: #1da650;*/
+.bp-btn {
+  padding: 14px 38px;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: lowercase;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  font-weight: 500; }
+
+.bp-btn-xl {
+  padding: 25px 70px;
+  font-size: 24px;
+  line-height: 24px; }
+
+.bp-btn-lg {
+  padding: 19px 65px;
+  font-size: 18px;
+  line-height: 20px; }
+
+.bp-btn-sm {
+  padding: 13px 22px;
+  font-size: 14px;
+  line-height: 16px; }
+
+.bp-btn-round {
+  border-radius: 8px; }
+
+.bp-btn-square {
+  border-radius: 0; }
+
+.bp-btn-circle {
+  border-radius: 30px; }
+
+.bp-btn-primary-outline:hover,
+.bp-btn-secondary-outline:hover {
+  color: #fff;
+  background-color: #ff8820;
+  border-color: #ff8820; }
+
+.bp-btn-primary-outline {
+  color: #151515;
+  background-color: transparent;
+  border-color: #ff8820; }
+
+.bp-btn-secondary-outline {
+  color: #ff8820;
+  background-color: transparent;
+  border-color: #ddd; }
+
+.bp-btn-primary {
+  color: #fff;
+  background-color: #ff8820;
+  border-color: #ff8820; }
+  .bp-btn-primary:hover {
+    color: #ff8820;
+    background-color: transparent;
+    border-color: #ff8820; }
+
+/*$orange-primary: #1da650;*/
+/*$orange-primary: #1da650;*/
+h1, h2, h3, h4, h5, h6,
+.heading-1,
+.heading-2,
+.heading-3,
+.heading-4,
+.heading-5,
+.heading-6 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: .025em;
+  word-spacing: .1em;
+  color: #151515;
+  text-align: center; }
+
+h1,
+.heading-1 {
+  font-size: 95px; }
+
+h2,
+.heading-2 {
+  font-size: 60px; }
+
+h3,
+.heading-3 {
+  font-size: 36px; }
+
+h4,
+.heading-4 {
+  font-size: 24px; }
+
+h5,
+.heading-5 {
+  font-size: 18px; }
+
+h6,
+.heading-6 {
+  font-size: 16px; }
+
+.text-white {
+  color: #fff; }
+
+.bp-bold {
+  font-weight: 700; }
+
+.dropdown-toggle::after {
+  content: none; }
+
+body {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+.display-flex {
+  display: flex; }
+
+.navbar .navbar-nav li.active .nav-link {
+  color: #ff8820; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.bp-container {
+  max-width: 1200px; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  font-size: 18px;
+  color: #151515; }
+  header .zmdi {
+    color: #ff8820;
+    font-size: 24px;
+    padding: 0 10px; }
+  header .bp-contact-info {
+    align-self: center; }
+
+#mainNavbar {
+  padding: 20px;
+  text-transform: uppercase; }

@@ -1,0 +1,7 @@
+@import './colors.scss';
+
+@mixin btn-theme($color: $white, $bkg-color: $orange-primary, $border-color: $orange-primary) {
+  color: $color;
+  background-color: $bkg-color;
+  border-color: $border-color;
+}

@@ -1,0 +1,50 @@
+@import './buttons.scss';
+@import './colors.scss';
+@import './text.scss';
+@import './bootstrap-overrides.scss';
+
+body {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.navbar .navbar-nav li.active .nav-link {
+  color: $orange-primary;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.bp-container {
+  max-width: 1200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+  font-size: 18px;
+  color: #151515;
+
+  .zmdi {
+    color: $orange-primary;
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .bp-contact-info {
+    align-self: center;
+  }
+}
+
+#mainNavbar {
+  padding: 20px;
+  text-transform: uppercase;
+}

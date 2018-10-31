@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sass Boilerplate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!-- Reset css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.min.css">
+    <!-- External css -->
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+    <!-- Project css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  </head>
+  <body>
+    <header class="display-flex">
+      <span class="bp-contact-info"><i class="zmdi zmdi-phone"></i> <span>1-800-1234-567</span></span>
+      <div class="logo"><a href="../index.html">
+        <span class="sr-only">Brittany Pierce</span>
+        <img src="../assets/images/logo-default-242x44.png" alt="Brittany Pierce">
+      </a></div>
+      <button class="bp-btn bp-btn-square bp-btn-secondary-outline bp-bold">Book now</button>
+    </header>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services <i class="zmdi zmdi-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Services</a>
+              <a class="dropdown-item" href="#">Single Service</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Gallery <i class="zmdi zmdi-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Grid Gallery</a>
+              <a class="dropdown-item" href="#">Masonry Gallery</a>
+              <a class="dropdown-item" href="#">Full-Width Grid Gallery</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Pages <i class="zmdi zmdi-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Buttons</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="bp-container ml-auto mr-auto center-block">
+      <h3>Buttons</h3>
+      <section>
+        <h4>Button sizes</h2>
+        <div>
+          <button class="bp-btn bp-btn-xl bp-btn-primary">xl size</button>
+          <button class="bp-btn bp-btn-lg bp-btn-primary">lg size</button>
+          <button class="bp-btn bp-btn-primary">normal size</button>
+          <button class="bp-btn bp-btn-sm bp-btn-primary">sm size</button>
+        </div>
+      </section>
+      <section>
+        <h4>Button shapes</h2>
+        <div>
+          <button class="bp-btn bp-btn-primary">normal</button>
+          <button class="bp-btn bp-btn-round bp-btn-primary">round</button>
+          <button class="bp-btn bp-btn-square bp-btn-primary">square</button>
+          <button class="bp-btn bp-btn-circle bp-btn-primary">circle</button>
+        </div>
+      </section>
+      <section>
+        <h4>Button styles</h4>
+        <div>
+          <button class="bp-btn bp-btn-primary">primary</button>
+          <button class="bp-btn bp-btn-primary-outline">primary outline</button>
+          <button class="bp-btn bp-btn-secondary-outline">secondary outline</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      var navbar = document.getElementById("mainNavbar");
+      var stickyOffset = navbar.offsetTop;
+
+      window.onscroll = function() { addStickyOnScroll(navbar, stickyOffset) };
+
+      function addStickyOnScroll(el, offsetTop) {
+        if (window.pageYOffset >= offsetTop) {
+          el.classList.add("sticky")
+        } else {
+          el.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
