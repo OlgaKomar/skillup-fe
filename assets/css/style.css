@@ -145,3 +145,35 @@ header {
 #mainNavbar {
   padding: 20px;
   text-transform: uppercase; }
+h5 {
+	font-size: 48px;
+	padding: 20px;  
+}
+.heading-4 {
+	color: orange;
+	margin: 40px;
+	border-bottom: 1px solid;
+}
+.colomn {
+	width: 30%;
+	height: 350px;
+	float: left;
+	margin: 15px;
+	padding: 15px;
+	border: 2px solid grey;
+}
+.colomn:hover {
+	background-color: orange;
+	color: white;
+}
+.heading-4:hover {
+	color: white;
+}
+.text {
+	float: left;
+	font-size: 16px;
+}
+.price {
+	float: right;
+	font-size: 16px;
+}
