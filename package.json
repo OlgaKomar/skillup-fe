@@ -1,5 +1,5 @@
 {
-  "name": "SkillUp Team Project",
+  "name": "skillUp-team-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -19,5 +19,6 @@
   "devDependencies": {
     "node-sass": "^4.7.2",
     "nodemon": "^1.17.2"
-  }
+  },
+  "private": true
 }
