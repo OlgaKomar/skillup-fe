@@ -145,3 +145,45 @@ header {
 #mainNavbar {
   padding: 20px;
   text-transform: uppercase; }
+/*EMilkin*/
+* {
+  box-sizing: border-box;
+}
+.container-1 {
+  display: flex;
+}
+.box-1 {
+  width: 25%;
+  position: relative;
+}
+.box-1 img {
+  width: 100%;
+  height: auto;
+}
+.absolute-1 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.white {
+  color: #fff;
+}
+.p-1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: arial;
+  margin: 0;
+}
+.p-2 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: arial;
+}
+span {
+  border-bottom-style: solid;
+  border-color: orange;
+  padding-bottom: 20px;
+  display: block;
+}
