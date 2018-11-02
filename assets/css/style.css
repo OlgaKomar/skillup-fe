@@ -150,40 +150,67 @@ header {
   box-sizing: border-box;
 }
 .container-1 {
-  display: flex;
+    display: flex;
 }
 .box-1 {
   width: 25%;
   position: relative;
+  overflow: hidden;
 }
 .box-1 img {
-  width: 100%;
-  height: auto;
+  height: 100%;  
+  opacity: 0.85;
+  transition: 0.5s;
+}
+.div-for-hover {
+  display: none;
 }
 .absolute-1 {
+  width: 80%;
   position: absolute;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.white {
-  color: #fff;
-}
 .p-1 {
-  font-size: 40px;
   font-weight: bold;
   font-family: arial;
+  color: white;
+  font-size: 38px;
   margin: 0;
 }
 .p-2 {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 16px;
   font-family: arial;
+  color: white;
 }
-span {
-  border-bottom-style: solid;
-  border-color: orange;
-  padding-bottom: 20px;
+.price-1 {
+  border-bottom: 3px solid orange;
+  display: inline-block;
+  padding-bottom: 14px;
+}
+.box-1:hover .div-for-hover {
+  position: absolute; 
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  animation-name: best-animation-of-the-year;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
   display: block;
 }
+.box-1:hover {  
+  cursor: pointer;
+}
+.box-1:hover img {
+  transform: scale(1.05, 1.05); 
+  opacity: 1;
+}
+@keyframes best-animation-of-the-year {
+  0% {border: none;}
+  100% {border: 1px solid white;}
+} 
+
