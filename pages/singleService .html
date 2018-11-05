@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sass Boilerplate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <!-- Reset css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.min.css">
+    <!-- External css -->
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+    <!-- Project css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div class="bp-menu-service">
+        <div class="bp-menu-service-info">
+            <h2>Portraits</h2>
+            <header><a href=" "target="_blank"> Home</a><i class="zmdi zmdi-trending-flat"></i>
+                <a href="" target="_blank">Services</a><i class="zmdi zmdi-trending-flat"></i>
+                <a href="" target="_blank">Portraits</a></header>
+        </div>
+    </div>
+    <div class="bp-price">
+        <div class="float-left fr-col-6 ">
+            <div class="bp-price-left ">
+                <div class="bp-first-header">Pencil Portraits</div>
+                <div class="bp-first-price">$95</div>
+                <p class="bp-left-text-price">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptate ad velit perspiciatis ipsa! Nostrum voluptate ex at laborum esse culpa modi, molestiae eveniet numquam!</p>
+            </div>
+            <div class="bp-price-left">
+                <div class="bp-first-header">Oil Portraits</div>
+                <div class="bp-first-price">$55</div>
+                <p class="bp-left-text-price">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptate ad velit perspiciatis ipsa! Nostrum voluptate ex at laborum esse culpa modi, molestiae eveniet numquam!</p>
+            </div>
+            <div class="bp-price-left">
+                <div class="bp-first-header">Watercolor Portraits</div>
+                <div class="bp-first-price">$15</div>
+                <p class="bp-left-text-price">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptate ad velit perspiciatis ipsa! Nostrum voluptate ex at laborum esse culpa modi, molestiae eveniet numquam!</p>
+            </div>
+            <div class="clear-both"></div>
+        </div>
+        <div class="float-right fr-col-6 ">
+            <div class="bp-price-right">
+                <form>
+                    <div class="bp-form-side ">
+                        <span class="icon"><i class="zmdi zmdi-account" ></i></span>
+                        <input type="text" name="Your Name" placeholder="Your Name" required></div>
+                    <div class="bp-form-side ">
+                        <span class="icon"><i class="zmdi zmdi-phone"></i></span>
+                        <input type="text" name="Phone" placeholder="Phone"></div>
+                    <div class="bp-form-side ">
+                        <span class="icon"><i class="zmdi zmdi-format-list-bulleted"></i></span>
+                        <input type="text" name="Portraits" placeholder="Portraits"></div>
+                    <div class="bp-form-side ">
+                        <span class="icon"><i class="zmdi zmdi-calendar-note"></i></span>
+                        <input type="text" name="Select Day" placeholder="Select Day"></div>
+                    <button class="bp-btn-primary bp-btn bp-btn-square ">book appointment</button>
+                </form>
+            </div>
+        </div>
+        <div class="clear-both"></div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+    var navbar = document.getElementById("mainNavbar");
+    var stickyOffset = navbar.offsetTop;
+
+    window.onscroll = function() { addStickyOnScroll(navbar, stickyOffset) };
+
+    function addStickyOnScroll(el, offsetTop) {
+        if (window.pageYOffset >= offsetTop) {
+            el.classList.add("sticky")
+        } else {
+            el.classList.remove("sticky");
+        }
+    }
+    </script>
+</body>
+
+</html>
