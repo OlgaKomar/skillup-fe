@@ -1,3 +1,4 @@
+@import './variables.scss';
 @import './buttons.scss';
 @import './colors.scss';
 @import './text.scss';
@@ -5,9 +6,13 @@
 
 * {
 	box-sizing: border-box;
-  	font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+	font-family: $font-family-sans-serif;
   	font-color: #aaa;
-  	font-size: 14px; }
+  	font-size: 14px;
+}
 
 .header ul {
   list-style: none;
@@ -52,6 +57,16 @@
 	margin-right: 30px;
 	}
 
+.headerCountries {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0;
+    justify-content: center;
+    float: right;
+}
+
 .mailContainer {
 	margin: 0 auto;
 	background: #353535;
@@ -59,13 +74,11 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
     a {
     	color: white;
     }
 }
-
-
-
 
 
 
