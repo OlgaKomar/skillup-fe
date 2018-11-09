@@ -1,3 +1,74 @@
 @import './buttons.scss';
 @import './colors.scss';
 @import './text.scss';
+@import url(./node_modules/font-awesome/css/font-awesome.css);
+
+* {
+	box-sizing: border-box;
+  	font-family: Roboto, Helvetica, Arial, sans-serif;
+  	font-color: #aaa;
+  	font-size: 14px; }
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+  .header ul li {
+    padding-right: 20px; }
+
+.leftBar {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin-left: 0;
+		justify-content: center;
+		float: left;
+	}
+
+.homePage {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.leftBar button {
+	padding: 0;
+	outline: none;
+	z-index: 1;
+	font-size: 22px;
+	width: 47px;
+	height: 47px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50%;
+	border-color: grey;
+	justify-content: center;
+	margin-bottom: 30px; }
+
+.midBar img {
+	margin: 0 auto;
+	width: 700px;
+	margin-right: 30px;
+	}
+
+.mailContainer {
+	margin: 0 auto;
+	background: #353535;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    a {
+    	color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
