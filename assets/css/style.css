@@ -73,3 +73,35 @@ body {
   text-align: center; }
   .mailContainer a {
     color: white; }
+
+.banner {
+  height: 450px; }
+
+.bg {
+  background-size: cover;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.content-row {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5% 0px; }
+
+.white-text {
+  color: #fff; }
+
+.avatar button {
+  width: 94px;
+  height: 94px;
+  border: none; }
+
+.avatar .clear-box {
+  width: 94px; }
+
+.contact-info {
+  padding: 100px 0px; }
+  .contact-info a {
+    display: inline-block;
+    color: white;
+    text-decoration: none; }

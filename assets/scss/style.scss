@@ -81,3 +81,46 @@ body {
     }
 }
 
+.banner{
+	height: 450px;
+}
+
+.bg{
+	background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.content-row{
+	height: 100%;
+    box-sizing: border-box;
+    padding: 5% 0px;
+}
+
+.white-text{
+	color: $white;
+}
+
+.avatar{
+
+	button{
+		width: 94px;
+    	height: 94px;
+    	border:none;
+	}
+
+	.clear-box{
+		width: 94px;
+	}
+}
+
+.contact-info{
+	padding: 100px 0px;
+
+	a{
+		    display: inline-block;
+    		color: white;
+    		text-decoration: none;
+	}
+}
